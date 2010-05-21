@@ -2,25 +2,31 @@
 from django.conf import settings
 from django.conf.urls.defaults import *
 from django.contrib import admin
-from django.conf import settings
+from django.shortcuts import redirect
 
 admin.autodiscover()
 
+
 urlpatterns = patterns('',
+    # Home page
+    (r'^$', lambda r: redirect('/evento/istcc-p/')),
+
+    # Admin
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/', include(admin.site.urls)),
 
-    (r'^palestras/', include('talks.urls')),
+    # Default error handlers
     (r'', include('server.urls')),
+
+    # Event app
+    (r'^evento/', include('event.urls')),
+
+    # Unused talk app
+    (r'^palestras/', include('talks.urls')),
 )
 
 
-from lncc import talks as talks_for_lncc
-from estacio import talks as talks_for_estacio
-
 urlpatterns+= patterns('django.views.generic.simple',
-    (r'^$', 'direct_to_template', {'template': 'event.html', 'extra_context': {'talks': talks_for_lncc} }),
-    
     (r'^index2/$', 'direct_to_template', {'template': 'index2.html'}),
 
     (r'^sobre/$', 'direct_to_template', {'template': 'sobre.html'}),
@@ -37,12 +43,6 @@ urlpatterns+= patterns('django.views.generic.simple',
     (r'^dojorio/$', 'direct_to_template', {'template': 'coding-dojo.html'}),
 
     (r'^oficina/$', 'direct_to_template', {'template': 'oficina.html'}),
-
-    (r'^evento/istcc-p/$', 'direct_to_template', {'template': 'event.html', 'extra_context': {'talks': talks_for_lncc} }),
-    (r'^evento/istcc-p/', include('subscription.urls')),
-
-    (r'^evento/estacio/$', 'direct_to_template', {'template': 'event.html', 'extra_context': {'talks': talks_for_estacio} }),
-    (r'^evento/estacio/', include('subscription.urls')),
 )
 
 if settings.DEBUG:
