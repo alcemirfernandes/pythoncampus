@@ -52,12 +52,13 @@ def deploy(**kwargs):
     stamp = time.strftime("%Y%m%d-%Hh%Mm%Ss")
 
     # Before deployment, run the tests locally.
-    #run_test()
+    local('python ./project/manage.py test')
 
     # Deploy
     _upload_project(rev, stamp)
     _activate_package(stamp)
     #server_migrate()
+    server_reload()
 
     # Tag the deployed revision
     local("git tag -a deploy/%s %s -m ''" % (stamp, rev))
