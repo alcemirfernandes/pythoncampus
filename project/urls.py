@@ -20,56 +20,22 @@ talks = (
     'time': '9:00',
     },
     {
-    'title': '"Ecossistema Python"',
+    'title': '"Ecossistema do Desenvolvimento Ágil: Como reduzir custos e prazos"',
     'time': '9:10',
     'description': """
-    Palestra introdutória que visa mostrar a abrangência da Linguagem de Programação Python em diversas áreas, Web, dispositivos portáteis, Cloud Computing e muitas outras. As vantagens da adoção da linguagens e suas características fundamentais, o comunidade e a mercado de trabalho que fazem parte do Ecossistema Python.
+    ....<br/>
+    ....<br/>
     """,
-    'speaker_name': 'Rafael Monnerat',
-    'speaker_about':
-    """
-    Rafael é um entusiasta do software livre e membro da <a href="http://www.tiolibre.com">TioLibre</a> initiative. Trabalha desde 2006 na <a href="http://www.nexedi.com/">Nexedi SA</a> (França), empresa criadora do <a href="http://www.erp5.org">ERP5</a>, onde já participou de alguns projetos de implantações de ERP na Europa e África.<br />
-    Atualmente atua no desenvolvimento e manutenção do Provedor de ERPs Hospedados: <a href="http://www.tiolive.com">TioLive</a>. Co-autor do capítulo "ERP5: Designing for Maximum Adaptability" do Livro <a href="http://oreilly.com/catalog/9780596510046">Beautiful Code</a> entre outros artigos e capítulos de livro na area.
-    """,
-    'speaker_url': 'http://twitter.com/ramonnerat',
-    'speaker_img': 'http://a1.twimg.com/profile_images/889085672/palestrante_rafael_monnerat_bigger.jpg'
-    },
-    {
-    'title': '"Comunidades e Software Livre"',
-    'time': '9:40',
-    'description': """
-    Palestra abrangindo os principais conceitos em torno do movimento de software livre, visando explicitar as vantagens da adoção de software livre em um projeto de software.<br />
-    Também serão abordados aspectos com relação à participação em comunidades de software livre.
-    """,
-    'speaker_name': u'Álvaro "Turicas" Justen',
+    'speaker_name': 'Henrique Bastos',
     'speaker_about': """
-    Graduando em Eng. de Telecomunicações pela UFF, onde desenvolve atividades de pesquisa, ensino e extensão. É desenvolvedor da Intelie e ativista de software livre há mais de 8 anos; desenvolvedor do web2py; disseminador do Arduino e entusiasta de metodologias ágeis.<br />
-    Participante assíduo de eventos e grupos de usuários, palestra e organiza eventos, como PythOnCampus, Arduino/web2py Hack Day e Dojorio.
+    Sua descrição<br/>
     """,
-    'speaker_url': 'http://www.justen.eng.br/sobre',
-    'speaker_img': 'http://www.justen.eng.br/img/rosto.jpg',
-    },
-    {
-    'title': '"Uma Experiência Acadêmica com Python"',
-    'time': '10:20',
-    'description': """
-    Relato da experiência de uso da linguagem Python no Núcleo de Pesquisa em Sistemas de Informação e no ensino de programação dos cursos de computação do Instituto Federal Fluminense.
-    """,
-    'speaker_name': 'Fábio Duncan',
-    'speaker_about': """
-    Possui mestrado em Pesquisa Operacional e Inteligência Computacional pela Universidade Candido Mendes (Campos - 2008).<br />
-    Atualmente é professor do Instituto Federal Fluminense e membro do Núcleo de Pesquisa em Sistemas de Informação (NSI-IFF). Tem experiência na área de Ciência da Computação com ênfase em algoritmos genéticos, programação paralela e segmentação de vídeo.
-    """,
-    'speaker_url': '',
-    'speaker_img': '/media/images/palestrantes/fabio_duncan.jpg',
-    },
-    {
-    'title': 'Coffee Break Reforçado',
-    'time': '11:20',
+    'speaker_url': 'http://henriquebastos.net',
+    'speaker_img': 'http://devinrio.com.br/img/palestrante_henrique_bastos.jpg'
     },
     {
     'title': '"Computação visual com Python"',
-    'time': '12:00',
+    'time': '10:00',
     'description': """
     Definição de Computação Visual e as diversas áreas da ciência envolvidas, com apresentação de Aplicações, Frameworks e Bibliotecas desenvolvidas em Python.
     """,
@@ -79,27 +45,62 @@ talks = (
     'speaker_img': 'http://a1.twimg.com/profile_images/326997520/closecabofrio2_bigger.jpg',
     },
     {
-    'title': '"Fuja da escravidão, antes que ela te alcance."',
-    'time': '13:00',
+    'title': '"Empreendedo"',
+    'time': '11:00',
     'description': """
-    Você é da área de tecnologia? Acredite, você está em muita vantagem!<br />
-    Conheça como funciona a sociedade e a organização do trabalho, e saiba como a Internet, o Software Livre e tecnologias como Python e Ruby podem revolucionar a sua vida.<br />
-    Aprenda a hackear o "ciclo vicioso social" e ter as rédeas o teclado da sua vida, nas suas mãos.<br />
+    ....<br/>
+    ....<br/>
     """,
-    'speaker_name': 'Vinícius Manhães Teles',
-    'speaker_about': 'Desenvolvedor de software e fundador da Improve It, empresa criadora do produto web Be on the Net. Vinicius foi o pioneiro em metodologias ágeis no Brasil, realizando diversos treinamentos e palestras sobre Extreme Programming, e atuando durante muito tempo como coach de equipes XP em diversas organizações. Além disso, é autor do primeiro livro de XP do Brasil e mestre em computação pela UFRJ.',
-    'speaker_url': 'http://www.improveit.com.br/',
-    'speaker_img': 'http://devinrio.com.br/img/palestrante_vinicius_teles.jpg',
+    'speaker_name': 'Arley Lobato',
+    'speaker_about': """
+    Sua descrição<br/>
+    """,
+    'speaker_url': 'http://trocandolivros.com',
+    'speaker_img': ''
     },
     {
-    'title': 'Palestras Relâmpago',
-    'time': '14:00',
+    'title': 'Coffee Break Reforçado',
+    'time': '11:20',
+    },
+
+    {
+    'title': '"Desenvolvendo produtos com Python. Casos e ferramentas"',
+    'time': '12:00',
+    'description': """
+    Muito ainda se fala que python (ex: django, web2py, etc) não serve como tecnologia para grandes produtos e etc.
+    Dizem ainda que somente serve para startups e pequenas empresas. Não deixam de ter razão, pois com baixo custo (entenda como tempo e dinheiro) você consegue colocar um produto web no ar. Mas longe de ser apenas mais uma liguagem de script, python é uma excelente ferramenta para fazer ERP, grandes portais ou aplicativos que terão um grande número de acesso e precisarão de grandes recursos.
+    Focando em Web, não faltam exemplos que confirmam o que acabei de dizer. Nesta palestra você verá exatamente esses casos, caminhos que foram tomados e suas trajetórias .<br />
+    """,
+    'speaker_name': 'André Fonseca',
+    'speaker_about': 'Profissional com mais de 10 anos de experiência em desenvolvimento de sistemas principalmente web e industriais. Já atuou em algumas empresa do Brasil e exterior (França, Polonia, Espanha, Portugal, etc) Hoje atua como desenvolvedor da Globo.com no time da plataforma de publicação.',
+    'speaker_url': 'http://metronus.com/blog',
+    'speaker_img': '',
+    },
+    {
+    'title': '"Economizando tempo e dinheiro com frameworks Web"',
+    'time': '13:00',
+    'description': """
+    Muitos desenvolvedores ainda não utilizam - parcial ou totalmente -
+    frameworks que contribuem com a produtividade. A utilização dessas ferramentas
+    é crucial para qualquer instituição, tanto do ponto de vista de qualidade de
+    software, quanto com relação aos prazos. Nessa palestra apresentarei o modelo MVC,
+    os frameworks livres escritos em Python mais utilizados e farei uma demonstração
+    utilizando o web2py de como funciona uma aplicação Web interoperável escrita
+    a partir de um framework.
+    """,
+    'speaker_name': u'Álvaro "Turicas" Justen',
+    'speaker_about': """
+    Graduando em Eng. de Telecomunicações pela UFF, onde desenvolve atividades de pesquisa, ensino e extensão. É desenvolvedor da Intelie e ativista de software livre há mais de 8 anos; desenvolvedor do web2py; disseminador do Arduino e entusiasta de metodologias ágeis.<br />
+    Participante assíduo de eventos e grupos de usuários, palestra e organiza eventos, como PythOnCampus, Arduino/web2py Hack Day e Dojorio.
+    """,
+    'speaker_url': 'http://www.justen.eng.br/sobre',
+    'speaker_img': 'http://www.justen.eng.br/img/rosto.jpg',
     })
 
 
 urlpatterns+= patterns('django.views.generic.simple',
     (r'^$', 'direct_to_template', {'template': 'event.html', 'extra_context': {'talks': talks} }),
-    
+
     (r'^index2/$', 'direct_to_template', {'template': 'index2.html'}),
 
     (r'^sobre/$', 'direct_to_template', {'template': 'sobre.html'}),
@@ -125,3 +126,4 @@ if settings.DEBUG:
         (r'^media/(?P<path>.*)$', 'django.views.static.serve',
             {'document_root': settings.MEDIA_ROOT}),
     )
+
