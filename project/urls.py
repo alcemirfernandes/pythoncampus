@@ -40,7 +40,11 @@ urlpatterns+= patterns('django.views.generic.simple',
 
     (r'^evento/istcc-p/$', 'direct_to_template', {'template': 'event.html', 'extra_context': {'talks': talks_for_lncc} }),
     (r'^evento/istcc-p/', include('subscription.urls')),
+
+    (r'^evento/estacio/$', 'direct_to_template', {'template': 'event.html', 'extra_context': {'talks': talks_for_estacio} }),
+    (r'^evento/estacio/', include('subscription.urls')),
 )
+
 if settings.DEBUG:
     urlpatterns += patterns('',
         (r'^media/(?P<path>.*)$', 'django.views.static.serve',
