@@ -6,6 +6,8 @@ from django.shortcuts import redirect
 
 admin.autodiscover()
 
+handler500 = 'server.views.server_error'
+handler404 = 'server.views.not_found'
 
 urlpatterns = patterns('',
     # Home page
