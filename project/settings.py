@@ -6,9 +6,12 @@ PROJECT_ROOT = abspath(join(dirname(__file__), pardir))
 
 ADMINS = (
     ('Admin PythonCampus', 'admin@pythoncampus.org'),
+    ('Henrique Bastos', 'henrique@bastos.net'),
 )
 
 MANAGERS = ADMINS
+
+DEFAULT_FROM_EMAIL = 'admin@pythoncampus.org'
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
