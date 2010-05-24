@@ -30,7 +30,7 @@ talks = (
     'speaker_name': 'André Fonseca',
     'speaker_about': 'Profissional com mais de 10 anos de experiência em desenvolvimento de sistemas principalmente web e industriais. Já atuou em algumas empresa do Brasil e exterior (França, Polonia, Espanha, Portugal, etc) Hoje atua como desenvolvedor da Globo.com no time da plataforma de publicação.',
     'speaker_url': 'http://metronus.com/blog',
-    'speaker_img': '',
+    'speaker_img': '/media/images/palestrantes/andre_fonseca.png',
     },
 
     {
