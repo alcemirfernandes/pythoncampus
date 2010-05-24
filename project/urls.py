@@ -25,6 +25,9 @@ urlpatterns = patterns('',
 
     # Unused talk app
     (r'^palestras/', include('talks.urls')),
+
+    # Used to test error 500
+    #(r'^raise/$', lambda r: 1/0),
 )
 
 
