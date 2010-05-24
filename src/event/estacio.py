@@ -18,7 +18,7 @@ talks = (
     É diretor de tecnologia da Myfreecomm onde trabalha desenvolvendo softwares com métodos ágeis, Python e softwares livres. Está constantemente presente nas comunidades de software cariocas, organizando eventos, ministrando cursos, palestras e evangelizando Python. Dentre outras iniciativas, participou da idealização e organização da caravana PythonCampus que visita universidades promovendo a integração entre alunos e o mercado de tecnologia através de software livre.
     """,
     'speaker_url': 'http://henriquebastos.net',
-    'speaker_img': 'http://devinrio.com.br/img/palestrante_henrique_bastos.jpg'
+    'speaker_img': 'http://en.gravatar.com/userimage/685245/2facffb27028a9a47863ce119dbbd1f1.png?size=100'
     },
 
     {
