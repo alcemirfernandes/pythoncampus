@@ -8,8 +8,8 @@ from estacio import talks as talks_for_estacio
 urlpatterns = patterns('django.views.generic.simple',
     (r'istcc-p/$', 'direct_to_template', {'template': 'event/lncc.html', 'extra_context': {'talks': talks_for_lncc} }),
 
-    (r'unesa-maduraira/$', 'direct_to_template', {'template': 'event/estacio.html', 'extra_context': {'talks': talks_for_estacio} }),
+    (r'unesa-madureira/$', 'direct_to_template', {'template': 'event/estacio.html', 'extra_context': {'talks': talks_for_estacio} }),
 
     # subscription
-    (r'unesa-maduraira/', include('subscription.urls')),
+    (r'unesa-madureira/', include('subscription.urls')),
 )
