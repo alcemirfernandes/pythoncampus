@@ -9,7 +9,7 @@ class TestViews(TestCase):
         self.assertEquals(200, response.status_code)
         self.assertTemplateUsed(response, 'event/lncc.html')
 
-    def test_show_estacio_event_page(self):
-        response = self.client.get('/evento/estacio/')
+    def test_show_unesa_event_page(self):
+        response = self.client.get('/evento/unesa-madureira/')
         self.assertEquals(200, response.status_code)
-        self.assertTemplateUsed(response, 'event/estacio.html')
+        self.assertTemplateUsed(response, 'event/unesa.html')
