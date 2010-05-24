@@ -10,12 +10,10 @@ talks = (
     'title': '"Ecossistema do Desenvolvimento Ágil: Reduzindo custos e prazos"',
     'time': '9:20',
     'description': """
-    ....<br/>
-    ....<br/>
-    """,
+    Muito se fala sobre gestão de projetos com métodos ágeis, mas pouco se fala do processo de desenvolvimento de software em si. Com um enfoque prático, vamos explorar as técnicas e processos ágeis essenciais para fazer a diferença e garantir um desenvolvimento de softwarecom realmente ágil.""",
     'speaker_name': 'Henrique Bastos',
     'speaker_about': """
-    É diretor de tecnologia da Myfreecomm onde trabalha desenvolvendo softwares com métodos ágeis, Python e softwares livres. Está constantemente presente nas comunidades de software cariocas, organizando eventos, ministrando cursos, palestras e evangelizando Python. Dentre outras iniciativas, participou da idealização e organização da caravana PythonCampus que visita universidades promovendo a integração entre alunos e o mercado de tecnologia através de software livre.
+    É diretor de tecnologia da Myfreecomm onde trabalha desenvolvendo softwares com métodos ágeis, Python e softwares livres. Está constantemente presente nas comunidades de software, ministrando palestras, cursos e evangelizando Python, no Brasil e no exterior. Dentre outras iniciativas, foi um dos organizadores do Dev in Rio 2009 e da caravana PythonCampus que visita universidades promovendo a integração entre alunos e o mercado de tecnologia através de software livre.
     """,
     'speaker_url': 'http://henriquebastos.net',
     'speaker_img': 'http://en.gravatar.com/userimage/685245/2facffb27028a9a47863ce119dbbd1f1.png?size=100'
