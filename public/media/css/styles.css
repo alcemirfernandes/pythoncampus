@@ -288,7 +288,7 @@ Content
 }
 
 #preco {
-  float:right; 
+  float:right;
   font-weight: bold;
   font-size: 2em;
   color: #000;
@@ -339,7 +339,6 @@ Talks
   line-height: 24px;
 }
 #talks .header span {
-  background-color: #000000;
   text-align: right;
   display: block;
   float: right;
@@ -442,3 +441,4 @@ Footer
   display: inline;
   padding: 0 0 0 10px;
 }
+
