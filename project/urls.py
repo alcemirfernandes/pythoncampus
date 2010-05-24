@@ -9,7 +9,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Home page
-    (r'^$', lambda r: redirect('/evento/istcc-p/')),
+    (r'^$', lambda r: redirect('/evento/unesa-madureira/')),
 
     # Admin
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
