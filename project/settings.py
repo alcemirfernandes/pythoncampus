@@ -73,6 +73,7 @@ INSTALLED_APPS = (
     'server',
     'subscription',
     'embed',
+    'event',
 )
 
 try:
